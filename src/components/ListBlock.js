@@ -1,12 +1,12 @@
-import {motion} from 'framer-motion'
+import {motion} from 'framer-motion' //library for animation
 import './ListBlock.css'
 
 export const ListBlock = (props) => {
     return (
         <div>
             <motion.div className='outerBlock'
-                drag
-                dragConstraints={{
+                drag  // for adding the drag effect
+                dragConstraints={{ //setting the limit
                 top: -500,
                 left: -500,
                 right: 500,
