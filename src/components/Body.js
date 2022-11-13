@@ -1,4 +1,5 @@
 import {Block} from './Block'
+import { ListBlock } from './ListBlock'
 import './Body.css'
 
 export const Body = () => {
@@ -8,6 +9,7 @@ export const Body = () => {
     }
 
     var iterList = iter.map((item) => <Block num={item} add={(item+1)*100}></Block>)
+    var LinkedList = iter.map((item) => <ListBlock num={item+1}></ListBlock>)
 
     return (
         <div>
@@ -47,8 +49,10 @@ export const Body = () => {
                 A linked list can grow and shrink its size, as per the requirement.
                 It does not waste memory space.
             </p>
+            <div className='arrDisplay'>
+                {LinkedList}
+            </div>
 
-            
         </div>
     )
 }
