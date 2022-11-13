@@ -1,0 +1,38 @@
+.arrblock {
+    background-color: white;
+    border: 2px solid blueviolet;
+    height: 8vh;
+    width: 8vh;
+    margin: 2px;
+    border-radius: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+}
+
+.numDisp{
+    background-color: rgb(255, 43, 131);
+    border: 1px solid rgb(255, 43, 131);
+    height: 6vh;
+    width: 6vh;
+    border-radius: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    color: white;
+    overflow: hidden;
+
+}
+
+.addDisp{
+    text-align: center;
+    background-color: white;
+    color: black;
+    padding: 0 2px;
+    width: 100%;
+    height: 50%;
+    font-size: 1rem;
+}
