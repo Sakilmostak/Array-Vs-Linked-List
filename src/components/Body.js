@@ -52,6 +52,12 @@ export const Body = () => {
             <div className='arrDisplay'>
                 {LinkedList}
             </div>
+            <p className='psection'>
+            Linked lists can be of multiple types: singly, doubly, and circular linked list.
+            The power of a linked list comes from the ability to break the chain and rejoin it.
+            Doing something similar in an array would have required shifting the positions of all the subsequent elements.
+            Apart from that, linked lists are a great way to learn how pointers work. By practicing how to manipulate linked lists, you can prepare yourself to learn more advanced data structures like graphs and trees.
+            </p>
 
         </div>
     )

@@ -1,0 +1,10 @@
+.foot {
+    background-color: blueviolet;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    font-size: 1.3rem;
+    user-select: none;
+}
