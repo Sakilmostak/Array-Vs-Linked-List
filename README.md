@@ -1,12 +1,8 @@
-Array vs Linked List:
+# Array vs Linked List:
 
 A simplistic yet playful website to demonstrate the difference between the two most commonly knowned data structures.
 
 Hope you enjoy your visit :)
-
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
